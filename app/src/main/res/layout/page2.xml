@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kid1"
+    android:orientation="vertical"
+    tools:context=".Page2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wisdom"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="normal|bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#0515EE"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/victor"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/victor"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/briggs"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="@string/briggs"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#0515EE"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/wendy"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="@string/wendy"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/mitchie"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="@string/mitchie"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#0515EE"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/wills"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="@string/williams"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+
+        <Button
+            android:id="@+id/adefx"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="@string/adefxmoney"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
