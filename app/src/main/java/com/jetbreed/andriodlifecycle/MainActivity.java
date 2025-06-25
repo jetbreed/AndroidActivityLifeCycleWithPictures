@@ -11,27 +11,15 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     Button startBtn;
+    String startBtn1;
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected void onResume() {
+        super.onResume();
 
-        Toast.makeText(this, "ON CREATE",
+        Toast.makeText(this, "ON RESUME",
                 Toast.LENGTH_SHORT).show();
-
-        startBtn = findViewById(R.id.startBtn);
-
-        startBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent page2 = new Intent(getApplicationContext(), Page2Activity.class);
-                startActivity(page2);
-
-                overridePendingTransition(R.anim.slide_in_right,
-                        R.anim.slide_out_left);
-            }
-        });
 
     }
 
@@ -44,20 +32,35 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        Toast.makeText(this, "ON RESUME",
-                Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "ON CREATE",
+                Toast.LENGTH_LONG).show();
+
+        startBtn = findViewById(R.id.startBtn);
+
+        startBtn.setOnClickListener(view -> {
+            Intent page2 =
+                    new Intent(getApplicationContext(),
+                            Page2Activity.class);
+            startActivity(page2);
+
+            overridePendingTransition(R.anim.slide_in_left,
+                    R.anim.slide_out_right);
+        });
 
     }
+
+
 
     @Override
     protected void onRestart() {
         super.onRestart();
 
         Toast.makeText(this, "ON RESTART",
-                Toast.LENGTH_SHORT).show();
+                Toast.LENGTH_LONG).show();
 
     }
 
