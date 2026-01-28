@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
         android:text="@string/next_page_2"
-        android:textSize="34sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -8,6 +8,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndriodLifeCycle">
+
         <activity
             android:name=".AdefxActivity"
             android:exported="false" />

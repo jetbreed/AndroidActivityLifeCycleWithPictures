@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Android Life Cycle</string>
     <string name="first_page">WISDOM ALBUM</string>
-    <string name="next_page_2"><![CDATA[START ALBUM >>>]]></string>
+    <string name="next_page_2"><![CDATA[START ALBUM >]]></string>
     <string name="briggs">BRIGGS</string>
     <string name="victor">VICTOR</string>
     <string name="wendy">WENDY</string>
